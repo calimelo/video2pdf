@@ -1,0 +1,19 @@
+{
+  "name": "video2pdf",
+  "version": "1.0.0",
+  "description": "convert video thumbnails to pdf",
+  "main": "video2pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node video2pdf.js",
+    "build": "nexe -i video2pdf.js -o video2pdf.exe -b -p C:\\Python310 --ico ..\\GD.ico --verbose"
+  },
+  "keywords": [],
+  "author": "Dr. Kaan Gunduz",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "html-pdf": "^3.0.1",
+    "jimp": "^0.22.10"
+  }
+}
